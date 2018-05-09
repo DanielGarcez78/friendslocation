@@ -1,0 +1,12 @@
+<a [routerLink]="['/friend-visit', friend?.id]">
+  <div class="place-info-box bg-red">
+    <span *ngIf="friend?.genero==='M'" class="place-info-box-icon"><img src="assets/male.png" style="width:120px; height:120px"/></span>
+    <span *ngIf="friend?.genero==='F'" class="place-info-box-icon"><img src="assets/female.png" style="width:120px; height:120px"/></span>
+    <div class="place-info-box-content">
+      <span class="place-info-box-text">{{friend?.nome}}</span>
+      <span class="place-info-box-star">&nbsp;</span>
+      <span class="place-info-box-detail">latitude: {{friend?.latitude}}</span>
+      <span class="place-info-box-detail">longitude: {{friend?.longitude}}</span>
+    </div>
+  </div>
+</a>

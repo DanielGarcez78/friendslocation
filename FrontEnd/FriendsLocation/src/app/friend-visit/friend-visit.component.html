@@ -1,0 +1,39 @@
+<section class="content">
+
+  <section class="content-header">
+    <h1>
+      Amigo Visitado
+    </h1>
+  </section>
+  <br/>
+  <div class="row">
+
+    <div class="col-sm-6 col-xs-12">
+      <fl-friend [friend]="friendVisited"></fl-friend>
+    </div>
+
+  </div>
+
+  <br/>
+
+  <section class="content-header">
+    <h1>
+      Amigos mais próximos
+    </h1>
+  </section>
+
+  <br/>
+  <div class="row">
+
+    <div *ngFor="let nearfriend of friends" class="col-sm-6 col-xs-12">
+      <fl-friend [friend]="nearfriend"></fl-friend>
+    </div>
+    <div *ngIf="friends?.length === 0" class="col-xs-12">
+      <p class="lead text-center">
+        Não existe nenhum amigo próximo.
+      </p>
+    </div>
+
+  </div>
+
+</section>
