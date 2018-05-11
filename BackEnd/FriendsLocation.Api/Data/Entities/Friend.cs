@@ -27,5 +27,8 @@ namespace FriendsLocation.Api.Data.Entities
         [Required]
         public double longitude { get; set; }
 
+        [NotMapped]
+        public double distance { get; set; }
+
     }
 }

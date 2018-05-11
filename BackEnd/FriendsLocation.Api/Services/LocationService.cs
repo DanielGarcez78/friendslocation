@@ -1,5 +1,4 @@
 ﻿using FriendsLocation.Api.Data.Entities;
-using FriendsLocation.Api.Data.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,20 +39,22 @@ namespace FriendsLocation.Api.Services
 
             try
             {
-                List<FriendDistance> distanceFriends = new List<FriendDistance>();
+                List<Friend> distanceFriends = new List<Friend>();
                 List<Friend> nearFriends = new List<Friend>();
 
                 foreach(Friend friend in listFriends)
                 {
-                    distanceFriends.Add(new FriendDistance() { distance = CalculaDistancia(friend, latitude, longitude), friend = friend });
+                    friend.distance = CalculaDistancia(friend, latitude, longitude);
+                    distanceFriends.Add(friend);
                 }
 
-                foreach (FriendDistance friendDistance in distanceFriends.OrderBy(f => f.distance).Take(2).AsEnumerable())
+                foreach (Friend friendDistance in distanceFriends.OrderBy(f => f.distance).Take(2).AsEnumerable())
                 {
-                    nearFriends.Add(friendDistance.friend);
+                    nearFriends.Add(friendDistance);
                 }
 
                 return nearFriends.AsEnumerable();
+
             }
             catch (Exception e)
             {

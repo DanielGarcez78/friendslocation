@@ -34,3 +34,15 @@ E:\FriendsLocation\BackEnd\FriendsLocation.Api\obj\Debug\netcoreapp2.0\FriendsLo
 E:\FriendsLocation\BackEnd\FriendsLocation.Api\obj\Debug\netcoreapp2.0\FriendsLocation.Api.AssemblyInfo.cs
 E:\FriendsLocation\BackEnd\FriendsLocation.Api\obj\Debug\netcoreapp2.0\FriendsLocation.Api.dll
 E:\FriendsLocation\BackEnd\FriendsLocation.Api\obj\Debug\netcoreapp2.0\FriendsLocation.Api.pdb
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\bin\Debug\netcoreapp2.0\appsettings.json
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\bin\Debug\netcoreapp2.0\FriendsLocation.Api.deps.json
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\bin\Debug\netcoreapp2.0\FriendsLocation.Api.runtimeconfig.json
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\bin\Debug\netcoreapp2.0\FriendsLocation.Api.runtimeconfig.dev.json
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\bin\Debug\netcoreapp2.0\FriendsLocation.Api.dll
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\bin\Debug\netcoreapp2.0\FriendsLocation.Api.pdb
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\obj\Debug\netcoreapp2.0\FriendsLocation.Api.csprojResolveAssemblyReference.cache
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\obj\Debug\netcoreapp2.0\FriendsLocation.Api.csproj.CoreCompileInputs.cache
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\obj\Debug\netcoreapp2.0\FriendsLocation.Api.AssemblyInfoInputs.cache
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\obj\Debug\netcoreapp2.0\FriendsLocation.Api.AssemblyInfo.cs
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\obj\Debug\netcoreapp2.0\FriendsLocation.Api.dll
+C:\FriendsLocation\friendslocation\BackEnd\FriendsLocation.Api\obj\Debug\netcoreapp2.0\FriendsLocation.Api.pdb

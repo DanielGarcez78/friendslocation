@@ -1,11 +1,11 @@
-<section class="content-header">
-  <h1>
-    Todos os Amigos
-  </h1>
-</section>
-
 <section class="content">
 
+  <section class="content-header">
+    <h1>
+      Todos os Amigos
+    </h1>
+  </section>
+  <br/>
   <div class="row">
     <div *ngFor="let friend of friends" class="col-sm-6 col-xs-12">
       <fl-friend [friend]="friend"></fl-friend>

@@ -7,6 +7,7 @@
       <span class="place-info-box-star">&nbsp;</span>
       <span class="place-info-box-detail">latitude: {{friend?.latitude}}</span>
       <span class="place-info-box-detail">longitude: {{friend?.longitude}}</span>
+      <span *ngIf="friend?.distance != 0" class="place-info-box-detail">distância: {{friend?.distance}}</span>
     </div>
   </div>
 </a>

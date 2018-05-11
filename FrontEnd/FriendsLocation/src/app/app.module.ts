@@ -12,7 +12,8 @@ import { FriendsComponent } from './friends/friends.component';
 import { FriendDetailComponent } from './friend-detail/friend-detail.component';
 import { FriendComponent } from './friend/friend.component';
 import { FriendsService } from './friends/friends.service';
-import { FriendVisitComponent } from './friend-visit/friend-visit.component'
+import { FriendVisitComponent } from './friend-visit/friend-visit.component';
+import { MapComponent } from './map/map.component'
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { FriendVisitComponent } from './friend-visit/friend-visit.component'
     FriendsComponent,
     FriendDetailComponent,
     FriendComponent,
-    FriendVisitComponent
+    FriendVisitComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,

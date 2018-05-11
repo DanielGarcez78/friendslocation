@@ -4,4 +4,5 @@ export interface Friend {
   genero: string
   latitude: number
   longitude: number
+  distance: number
 }

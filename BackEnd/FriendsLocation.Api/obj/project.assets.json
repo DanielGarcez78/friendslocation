@@ -13132,11 +13132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FriendsLocation\\BackEnd\\FriendsLocation.Api\\FriendsLocation.Api.csproj",
+      "projectUniqueName": "C:\\FriendsLocation\\friendslocation\\BackEnd\\FriendsLocation.Api\\FriendsLocation.Api.csproj",
       "projectName": "FriendsLocation.Api",
-      "projectPath": "E:\\FriendsLocation\\BackEnd\\FriendsLocation.Api\\FriendsLocation.Api.csproj",
+      "projectPath": "C:\\FriendsLocation\\friendslocation\\BackEnd\\FriendsLocation.Api\\FriendsLocation.Api.csproj",
       "packagesPath": "C:\\Users\\daniel.garcez\\.nuget\\packages\\",
-      "outputPath": "E:\\FriendsLocation\\BackEnd\\FriendsLocation.Api\\obj\\",
+      "outputPath": "C:\\FriendsLocation\\friendslocation\\BackEnd\\FriendsLocation.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
